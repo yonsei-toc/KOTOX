@@ -45,7 +45,7 @@ def preprocess(task_name, prompt, data, tokenizer):
         target = data["neutral"]
     elif task_name == "sanitization":
         query = data["toxic_obfuscated_texts"]
-        target = data["toxic"]
+        target = data["neutral"]
     else:
         print(f"Undefined task: {task_name}.")
         exit(1)

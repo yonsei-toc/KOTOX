@@ -170,7 +170,7 @@ def main() -> None:
             few_shot_targets = [i["neutral"] for i in few_shot_examples]
         elif task_name == "sanitization":
             few_shot_queries = [i["toxic_obfuscated_texts"] for i in few_shot_examples]
-            few_shot_targets = [i["toxic"] for i in few_shot_examples]
+            few_shot_targets = [i["neutral"] for i in few_shot_examples]
         else:
             print(f"Undefined task: {task_name}.")
             exit(1)
@@ -222,7 +222,7 @@ def main() -> None:
                 target = x["neutral"]
             elif task_name == "sanitization":
                 query = prompt.substitute(input=x["toxic_obfuscated_texts"])
-                target = x["toxic"]
+                target = x["neutral"]
             else:
                 print(f"Undefined task: {task_name}.")
                 exit(1)
