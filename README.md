@@ -20,14 +20,14 @@
 
 <span style="color: red">❗️***Warning**: this document contains content that may be offensive or upsetting.*</span>
 
-> **KOTOX**, the first Korean dataset for deobfuscation and detoxification, was built using linguistically grounded transformation rules to create three difficulty levels (easy, normal, and hard) for handling obfuscated toxic expressions.
+> **KOTOX**, the first Korean dataset for deobfuscation and detoxification, was built using linguistically grounded transformation rules to handle obfuscated toxic expressions.
 
 ## 🧪 About KOTOX
 <p align="center">
   <img src="./assets/motivation.png" alt="KOTOX motivation" width="350"/>
 </p>
 
-**KOTOX** is the **first Korean dataset** designed for **deobfuscation** and **detoxification** of toxic language. Built from linguistically grounded transformation rules, it introduces three difficulty levels—**easy**, **normal**, and **hard**—to model how users disguise offensive expressions in Korean. 
+**KOTOX** is the **first Korean dataset** designed for **deobfuscation** and **detoxification** of toxic language. Built from linguistically grounded transformation rules, it introduces obfuscated instances to model how users disguise offensive expressions in Korean. 
 
 Unlike previous datasets that focus mainly on English or clean toxic text, KOTOX captures diverse obfuscation patterns specific to **Hangul and Korean phonology**, such as phonological, iconological, transliteration-based, syntactic, and pragmatic variations. 
 
